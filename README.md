@@ -9,6 +9,8 @@ mv ./hast/src /usr/local/bin
 chmod +x hast.sh
 mv hast.sh /usr/local/bin/hast
 ```
+<b> Be sure to have Deno installed </b>
+
 ----
 To start create a 'Hastentry' or '.hast' file in your location
 ```Bash
