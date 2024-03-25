@@ -38,8 +38,8 @@ function functionByNameSafe(program: HastProgram, name: string): Function {
         throw new Error("Function not found: " + name);
     }
     return func;
-
 }
+
 function parseFileStart(program: HastProgram) {
     for (let i = 0; i < program.startOfFile.length; i++) {
         if (isNull(program.startOfFile[i])) {

@@ -1,1 +1,6 @@
+hast-data
+$hello: echo "Hello World!"
+hast-hello
+(run) $(hello)
 hast-main
+(print) Hello World!
