@@ -1,0 +1,6 @@
+hast-data
+$hello: echo Hello, World!
+hast-main
+(run) $(hello)
+hast-run
+(run) echo Bye, World!

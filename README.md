@@ -3,9 +3,11 @@ Hast is a project created by Maxims Enterprise that allows you to create simple 
 
 ## Setup
 First download the files and use this command to copy the 'Hast' folder to your bash folder:
+#### macOS and Linux
 ```Bash
-sudo mv bash /usr/local/bin # I'm using macOS
-chmod +x /usr/local/bin/hast.sh
+mv ./hast/src /usr/local/bin
+chmod +x hast.sh
+mv hast.sh /usr/local/bin/hast
 ```
 ----
 To start create a 'Hastentry' or '.hast' file in your location
